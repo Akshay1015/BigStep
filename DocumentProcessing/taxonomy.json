@@ -1,0 +1,235 @@
+﻿{
+  "DataContractVersion": "1.0",
+  "DocumentTypes": [
+    {
+      "DocumentTypeId": "Data-Extraction.Hindi_PDF.Hindi_Pdf_Extraction",
+      "Group": "Data-Extraction",
+      "Category": "Hindi_PDF",
+      "Name": "Hindi_Pdf_Extraction",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "Data-Extraction.Hindi_PDF.Hindi_Pdf_Extraction.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Data-Extraction.Hindi_PDF.Hindi_Pdf_Extraction.Invoice",
+          "FieldName": "Invoice",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Data-Extraction.Hindi_PDF.Hindi_Pdf_Extraction.Date",
+          "FieldName": "Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "Month Day ,Year",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Data-Extraction.Hindi_PDF.Hindi_Pdf_Extraction.Customer",
+          "FieldName": "Customer",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Data-Extraction.Hindi_PDF.Hindi_Pdf_Extraction.PO_Number",
+          "FieldName": "PO_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Data-Extraction.Hindi_PDF.Hindi_Pdf_Extraction.Payment_DueDate",
+          "FieldName": "Payment_DueDate",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "Month Day , Year",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Data-Extraction.Hindi_PDF.Hindi_Pdf_Extraction.Reference_No",
+          "FieldName": "Reference_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Data-Extraction.Hindi_PDF.Hindi_Pdf_Extraction.Salesperson",
+          "FieldName": "Salesperson",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Data-Extraction.Hindi_PDF.Hindi_Pdf_Extraction.Subtotal",
+          "FieldName": "Subtotal",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Data-Extraction.Hindi_PDF.Hindi_Pdf_Extraction.Shipping_Charges",
+          "FieldName": "Shipping_Charges",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Data-Extraction.Hindi_PDF.Hindi_Pdf_Extraction.Vat",
+          "FieldName": "Vat",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Data-Extraction.Hindi_PDF.Hindi_Pdf_Extraction.Grand_Total",
+          "FieldName": "Grand_Total",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "Data-Extraction",
+      "Categories": [
+        "Hindi_PDF"
+      ]
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    }
+  ]
+}

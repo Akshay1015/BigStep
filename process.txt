@@ -1,0 +1,4 @@
+1. change in classify document scope - in keyword based classifier - manage learning - edit the keyword which recognizes the document.
+2. change in Data extraction Scope - In intelligent form factor - go to manage learning - edit it & create the new data extraction process.
+3. change in Train Classify Scope- in keyword based classifier - manage learning - edit the keyword which recognizes the document.
+4. Rest will remain same.
